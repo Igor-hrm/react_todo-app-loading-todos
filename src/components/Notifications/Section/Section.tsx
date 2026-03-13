@@ -60,7 +60,6 @@ export const Section: React.FC<Props> = ({
             x
           </button>
 
-          {/* 🔥 TODO LOADER (obrigatório na Mate) */}
           <div data-cy="TodoLoader" className="modal overlay hidden">
             <div className="modal-background has-background-white-ter" />
             <div className="loader" />
